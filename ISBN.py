@@ -18,9 +18,9 @@ if lastNum == tenth:
     total = total + lastNum
     #Checking for the legitimacy for the 2nd time
     if total % 11 == 0:
-        print('Legit')
+        print('Valid')
     else:
-        print('Not legit')
+        print('Not valid')
 else:
-    print('Not legit')
+    print('Not valid')
     
