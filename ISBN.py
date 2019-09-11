@@ -20,7 +20,7 @@ if lastNum == tenth:
     if total % 11 == 0:
         print('Valid')
     else:
-        print('Not valid')
+        print('Invalid')
 else:
-    print('Not valid')
+    print('Invalid')
     
