@@ -14,8 +14,7 @@ lastNum = int(total % 11)
 #Check if the last number found through the sum is equal to the last number
 #given by the input
 if lastNum == tenth:
-    lastNum = lastNum * 10
-    total = total + lastNum
+    total = total + (lastNum * 10)
     #Checking for the legitimacy for the 2nd time
     if total % 11 == 0:
         print('Valid')
